@@ -14,9 +14,14 @@
  limitations under the License.
  */
 
-public class App {
+public class Base {
 
-    public static void main(String[] args) throws Exception {
-        Base.greetings();
+    /**
+     * Gives a warm greeting message.
+     */
+    public static void greetings() {
+        String message = "Welcome to " + Constants.APP_NAME + " v" +
+                Constants.APP_VERSION + "!";
+        System.out.println(message);
     }
 }

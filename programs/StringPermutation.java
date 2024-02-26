@@ -21,7 +21,7 @@ import java.util.Scanner;
 /**
  * String permutation finder program.
  */
-public class StringPermutation {
+class StringPermutation {
 
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
