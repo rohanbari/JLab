@@ -24,6 +24,6 @@ public class Base {
                 Constants.APP_VERSION + "!";
                 
         System.out.println(message);
-        System.out.println();
+        System.out.println("=====================");
     }
 }

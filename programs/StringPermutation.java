@@ -18,9 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * String permutation finder program.
- */
 class StringPermutation {
 
     public static void main(String[] args) throws Exception {
