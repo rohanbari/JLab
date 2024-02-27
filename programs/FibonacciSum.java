@@ -16,7 +16,7 @@
 
 import java.util.Scanner;
 
-public class App {
+class FibonacciSum {
 
     public static void main(String[] args) throws Exception {
         Base.greetings();
@@ -31,6 +31,12 @@ public class App {
         scanner.close();
     }
 
+    /**
+     * Generates the (limit - 1)th term of Fibonacci series.
+     * 
+     * @param limit Index of the term
+     * @return Fibonacci sum
+     */
     private static int fibonacci(int limit) {
         if (limit <= 1)
             return limit;

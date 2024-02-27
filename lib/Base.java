@@ -22,6 +22,8 @@ public class Base {
     public static void greetings() {
         String message = "Welcome to " + Constants.APP_NAME + " v" +
                 Constants.APP_VERSION + "!";
+                
         System.out.println(message);
+        System.out.println();
     }
 }
