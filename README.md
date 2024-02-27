@@ -1,6 +1,6 @@
 # JLab
 
-This project contains individual programs that does stuff independently.
+This project contains individual programs that does things independently.
 
 This project's source code is available under the [`src`](./src) directory.
 Please feel free to make any changes to my code.
@@ -18,7 +18,7 @@ in [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 ## License
 
-This open-source project is licensed under the MIT License.
+This open-source project is licensed under the Apache-2.0 License.
 Please refer to the [`LICENSE`](./LICENSE) file.
 
 ## Reach Me

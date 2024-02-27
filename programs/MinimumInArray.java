@@ -14,9 +14,29 @@
  limitations under the License.
  */
 
-public class App {
+class MinimumInArray {
 
     public static void main(String[] args) throws Exception {
         Base.greetings();
+
+        int[] array = { 7, 12, 9, 4, 11 };
+        System.out.println("Minimum: " + minimum(array));
+    }
+
+    /**
+     * Finds the element with minimum value in an array.
+     * 
+     * Time complexity: O(n)
+     * 
+     * @param param Array to work on
+     * @return Minimum value
+     */
+    private static int minimum(final int[] param) {
+        int min = param[0];
+        for (int i = 1; i < param.length; i++)
+            if (param[i] < min)
+                min = param[i];
+
+        return min;
     }
 }
