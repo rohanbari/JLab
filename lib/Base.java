@@ -14,16 +14,17 @@
  limitations under the License.
  */
 
+package lib;
+
+/**
+ * This class contains several basic methods to execute.
+ */
 public class Base {
 
     /**
-     * Gives a warm greeting message.
+     * Prints a welcome message on the screen.
      */
     public static void greetings() {
-        String message = "Welcome to " + Constants.APP_NAME + " v" +
-                Constants.APP_VERSION + "!";
-                
-        System.out.println(message);
-        System.out.println("=====================");
+        System.out.println("Welcome to " + Constants.APP_NAME + "!");
     }
 }
