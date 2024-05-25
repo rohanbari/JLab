@@ -6,7 +6,7 @@
 
 This project contains individual programs that does things independently.
 
-This project's source code is in the [`src`](./src) directory.
+This project's source code is in the [`code`](./code) directory.
 Please feel free to make any changes to my code.
 
 ## Coding Environment
