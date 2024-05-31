@@ -14,15 +14,17 @@
  limitations under the License.
  */
 
-package code;
+package code.MyCode;
 
 class SlidingWindow {
 
     public int sumSlidingWindow(final int[] array, final int k) {
+        // Evaluating the first window's sum
         int maxSum = 0;
         for (int i = 0; i < k; i++)
             maxSum += array[i];
 
+        // Comparison with other sliding windows
         int windowSum = maxSum;
         for (int i = k; i < array.length; i++) {
             windowSum += array[i] - array[i - k];
